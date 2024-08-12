@@ -1,0 +1,19 @@
+body {
+  color: rgba(255, 0, 0, 0.689);
+  font-weight: 500;
+}
+
+.first-row {
+  font-size: 20px;
+  padding-top: 5px;
+  display: flex;
+}
+
+.main {
+  display: flex;
+  background-color: lightblue;
+}
+
+.second-row {
+  font-size: 12px;
+}/*# sourceMappingURL=style.css.map */

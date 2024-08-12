@@ -1,0 +1,306 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.first-type {
+  margin-left: 100px;
+}
+
+.header {
+  display: flex;
+  background: linear-gradient(86.7deg, #01ACD4 7.94%, #60C9EA 92.97%);
+  color: white;
+}
+.header h1 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.header .btn {
+  background: #064B87;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.lorem {
+  color: #084D77;
+}
+
+.features {
+  padding: 20px 0;
+}
+.features .container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.features .feature {
+  width: 22%;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.features .feature .same-line {
+  display: flex;
+  align-items: center;
+}
+
+.info-box {
+  display: flex;
+}
+
+.first-card {
+  display: flex;
+  width: 60%;
+  flex: 3;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.second {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+.second .second-card {
+  display: flex;
+}
+.second .third-card {
+  display: flex;
+}
+.second div {
+  flex: 3;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.second div h3 {
+  margin-bottom: 10px;
+}
+
+.info {
+  padding: 50px 0;
+}
+.info h2 {
+  margin-bottom: 20px;
+}
+.info .stats {
+  display: flex;
+  justify-content: space-between;
+}
+.info .stats .stat {
+  width: 90%;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.data {
+  padding: 0px;
+  margin: 0px;
+}
+
+.conten-event {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-blue {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 100px;
+  background-image: url("../assets/Rectangle 34624148.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.event {
+  color: white;
+  padding: 50px 0;
+}
+.event h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.event .event-categories {
+  display: flex;
+  justify-content: space-between;
+}
+.event .event-categories .category {
+  width: 22%;
+}
+.event .event-categories .category img {
+  width: 100%;
+  border-radius: 5px;
+}
+.event .event-categories .category p {
+  margin-top: 10px;
+}
+.event .content-data {
+  z-index: 1;
+  font-size: 0.9rem;
+  color: #fff;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+.event .event-details {
+  display: flex;
+  justify-content: space-between;
+}
+.event .event-details .detail {
+  text-align: center;
+  width: 24%;
+  background: #0056b3;
+  padding: 15px;
+  border-radius: 5px;
+  position: relative;
+  padding-top: 40px;
+}
+.event .event-details .detail > div {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+.event .event-details .detail > div img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.event .event-details .detail > div img.date-icon {
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  height: 60%;
+  transform: translate(-50%, -50%);
+}
+.event .event-details .detail p {
+  margin-top: 20px;
+}
+
+.request-content {
+  display: flex;
+  width: 100%;
+}
+
+.demo {
+  padding: 50px 0;
+  background: #f9f9f9;
+}
+.demo div {
+  flex: 1;
+  padding: 2px 20px;
+}
+.demo h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.demo form {
+  width: 90%;
+  margin: 0 auto;
+}
+.demo form .form-group {
+  position: relative;
+  margin-bottom: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.demo form .form-group .input-wrapper {
+  position: relative;
+  width: 48%;
+  margin-right: 10px;
+}
+.demo form .form-group .input-wrapper:last-child {
+  margin-right: 0;
+}
+.demo form .form-group .input-wrapper input {
+  height: 100%;
+  width: 100%;
+  padding-right: 40px;
+}
+.demo form .form-group .input-wrapper img {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 16px;
+  width: auto;
+}
+.demo form .form-group textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.demo form .btn {
+  background: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.footer {
+  background: #150D2B;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer .footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer .footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+.footer .footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+.footer .footer-certs {
+  margin: 20px 0;
+}
+.footer .footer-certs img {
+  width: 50px;
+  height: auto;
+}
+.footer p {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
